@@ -24,6 +24,6 @@ export class Relationships extends XmlComponent {
     }
 
     public get RelationshipCount(): number {
-        return this.root.length - 1;
+        return this.root.length + 1;
     }
 }
